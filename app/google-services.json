@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1085078885474",
+    "project_id": "petdaycarekotandfire-35bfb",
+    "storage_bucket": "petdaycarekotandfire-35bfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085078885474:android:ef6d676ea28738ddecad3b",
+        "android_client_info": {
+          "package_name": "com.example.petdaycarekotandfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085078885474-7b6n574t3hhl4sokikkfrj361l6mui5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petdaycarekotandfire",
+            "certificate_hash": "e04fc37dcd7f85b74a6f9fd6ac608d75d5d689b4"
+          }
+        },
+        {
+          "client_id": "1085078885474-dslcgqq579qaamgg8pudjkggh2n36fpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petdaycarekotandfire",
+            "certificate_hash": "5b3190f294075e01b7e3078563d39ea5a33840fe"
+          }
+        },
+        {
+          "client_id": "1085078885474-g97qbqu9mc74ihh47udfid44c1kjfa8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWBQAjYseBRYpQeW7gTAgKoORxfVFAua4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085078885474-g97qbqu9mc74ihh47udfid44c1kjfa8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

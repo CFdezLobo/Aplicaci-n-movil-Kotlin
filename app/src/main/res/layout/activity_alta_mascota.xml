@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AltaMascota"
+    android:orientation="vertical"
+    android:id="@+id/contenedorPadre"
+    android:background="#eeeeee">
+
+    <RelativeLayout
+        android:id="@+id/contenedorGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textoGeneral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:text="General"
+            android:textColor="@color/primaryColor" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nombre"
+            android:textSize="16sp"
+            android:maxLength="20"
+            android:backgroundTint="@color/primaryColor"/>
+
+        <EditText
+            android:id="@+id/editTextRaza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/editTextNombre"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Raza"
+            android:textSize="16sp"
+            android:maxLength="20"
+            android:backgroundTint="@color/primaryColor"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/contenedorGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textoGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Género"
+            android:textColor="@color/primaryColor" />
+
+        <Spinner
+            android:id="@+id/spinnerGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="top"
+            android:padding="5dp"
+            android:spinnerMode="dropdown"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/contenedorConstitucion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textoConstitucion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Constitución"
+            android:textColor="@color/primaryColor" />
+
+        <EditText
+            android:id="@+id/editTextTextPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Peso"
+            android:textSize="16sp"
+            android:backgroundTint="@color/primaryColor"/>
+
+        <TextView
+            android:id="@+id/textoKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:text="Kg" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vistaVacia"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/botonNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Nueva"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
